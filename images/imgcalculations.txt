@@ -1,0 +1,16 @@
+image calculations
+
+ARROWS:
+
+width: 41.25
+height: 59.7
+
+BUTTONS:
+
+width:
+height:
+
+TASK:
+
+width:
+height:

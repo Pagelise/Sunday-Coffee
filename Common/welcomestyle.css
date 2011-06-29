@@ -1,0 +1,34 @@
+body {
+  color:white;
+  background: url(../images/background2.gif); }
+
+h1 {
+  text-align:center;
+  text-size:20px;
+  
+}
+
+img {
+  position:absolute;
+  margin-left:520px;
+  margin-top:100px;
+}
+
+
+div.left {
+  position:absolute;
+  top:250px;
+  left:200px;
+  width:200px;
+}
+
+input {
+  float:right;
+}
+
+div.right {
+  position:absolute;
+  top:250px;
+  right: 200px;
+  width:300px;
+}

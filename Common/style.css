@@ -1,0 +1,184 @@
+div.taskarrows {
+  position:absolute;
+  width:500px;
+  height: 50px;
+  margin-top:-50px;
+  margin-left:425px;
+}
+
+input {
+  float:right;
+}
+
+div.login {
+  text-align:left;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+
+div.main { 
+  color:white;
+  width:1000px;
+  height: 350px;:
+  position:absolute;
+  margin-left:175px;
+  margin-top:170px;
+  margin-bottom:100px;
+  border: white solid 2px;
+  padding:20px;
+  background: url(../images/brn2.gif);
+  z-index:2;}
+
+h1 {
+  position:absolute;
+  top:-20px;
+  left:150px;
+  font-weight:bold;
+  color:#FFFFFF;}
+
+#arrow.aleft {
+  left:50px;
+  position:absolute;
+  display: block;
+  width: 52.25px;
+  height: 39px;
+  background: url("../images/arrowsprite.gif") -125px -82px; }
+
+#arrow.aleft:hover { 
+  background-position: -125px -123px; }
+
+#arrow.aright {
+  right:50px;
+  position:absolute;
+  display: block;
+  width: 52.25px;
+  height: 39px;
+  background: url("../images/arrowsprite.gif") -125px 0px; }
+
+#arrow.aright:hover { 
+  background-position: -125px -40px; }
+
+body {
+  color:white;
+  background: url(../images/background2.gif); }
+
+#nav {
+  display: block;
+  width: 145px;
+  height: 23px;
+  background: url("../images/buttonsprite.gif") no-repeat 0 0;
+  list-style-type:none;
+  font-size:15px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  margin-left:-25px;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;}
+
+#nav.highlight {
+  background-position: -308px 0px;
+  margin-left:-35px;
+}
+
+
+#nav:hover { 
+  background-position: 0px -32px;}
+
+#nav span {
+  position: absolute;
+  top: -999em; }
+
+#task {
+  list-style-type:none;
+  font-size:15px;
+  display:block;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;}
+
+#task.good {
+  display: block;
+  width: 97px;
+  height: 97px;
+  border:none;
+  background: url("../images/taskboxsprite.gif") 0 0;
+}
+
+#task.good:hover { 
+  background-position: 0px -106px;}
+
+#task.good span {
+  position: absolute;
+  top: -999em; }
+
+li.due,li.overdue,li.good {
+  float:left;
+}
+
+#task.due {
+  display: block;
+  width: 97px;
+  height: 97px;
+  border:none;
+  background: url("../images/taskboxsprite.gif") -109px 0px; }
+
+#task.due:hover { 
+  background-position: -109px -106px;}
+
+#task.due span {
+  position: absolute;
+  top: -999em; }
+
+#task.overdue {
+  display: block;
+  width: 97px;
+  height: 97px;
+  border:none;
+  background: url("../images/taskboxsprite.gif") -217px 0px; }
+
+#task.overdue:hover { 
+  background-position: -217px -106px; }
+
+#task.overdue span {
+  position: absolute;
+  top: -999em; }
+
+
+
+img.mainlogo {
+  position:absolute;
+  top:20px;
+  left:20px;
+  width:107px;
+  height:138.5px; }
+
+ul.nav {
+  position:absolute;
+  list-style-type:none;
+  top: 230px;
+  z-index:0;}
+
+ul.tasklist {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+a.button:link,a.button:visited { 
+  list-style-type:none;
+  font-size:15px;
+  display:block;
+  font-weight:bold;
+  color:white;
+  width:172px;
+  text-align:left;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase; }
